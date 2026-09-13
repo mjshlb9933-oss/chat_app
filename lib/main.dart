@@ -90,7 +90,7 @@ class _ChatScreenState extends State<ChatScreen> {
   String _myName = '';
   int _lastId = 0;
 
-  final String _baseUrl = 'http://127.0.0.1:8080/chat';
+  final String _baseUrl = 'http://192.168.0.102:8080/chat';
 
   @override
   void initState() {
